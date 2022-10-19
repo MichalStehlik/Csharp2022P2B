@@ -76,6 +76,7 @@ foreach(var x in zubate)
     Console.WriteLine();
 }
 */
+/*
 int[] znamky = new int[100];
 Console.WriteLine(znamky[0]);
 znamky[0] = 1;
@@ -93,3 +94,90 @@ for (int i = 0; i < pocet; i++)
     Console.Write(znamky[i]);
 }
 Console.WriteLine();
+*/
+int[] pole = { 1,5,8,1,2,6,9,2,4,1};
+//pole = Range(10,20);
+//Console.WriteLine(Array.MaxLength);
+//Array.Sort(pole);
+//Array.Reverse(pole);
+//Console.WriteLine(Array.IndexOf(pole, 8));
+//Console.WriteLine(Array.LastIndexOf(pole, 2));
+/*
+int[] pole2 = pole;
+int[] pole3 = (int[])pole2.Clone();
+pole2[2] = 1000;
+foreach (int i in pole)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+foreach (int i in pole2)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+foreach (int i in pole3)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+*/
+/*
+int[] pole2 = Multiply1(pole, 10);
+foreach (int i in pole2)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+
+Multiply2(ref pole, 10);
+foreach (int i in pole2)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+*/
+ResizeArray(ref pole, pole.Length + 3);
+foreach (int i in pole)
+{
+    Console.Write(i + ",");
+}
+Console.WriteLine();
+
+int[] Range(int min, int max)
+{
+    int[] arr = new int[max - min + 1];
+    for (int i = 0; i <= max - min; i++)
+    {
+        arr[i] = i + min;
+    }
+    return arr;
+}
+
+int[] Multiply1(int[] arr, int value)
+{
+    int[] res = (int[])arr.Clone();
+    for(int i = 0; i < arr.Length; i++)
+    {
+        res[i] = arr[i] * value;
+    }
+    return res;
+}
+
+void Multiply2(ref int[] arr, int value)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        arr[i] *= value;
+    }
+}
+
+void ResizeArray(ref int[] arr, int newSize)
+{
+    int[] temp = new int[newSize];
+    for(int i = 0; i < temp.Length; i++)
+    {
+        if (i < arr.Length) temp[i] = arr[i];
+    }
+    arr = temp;
+}
