@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst03Enum", "Cst03Enum\Cst0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst04Array", "Cst04Array\Cst04Array.csproj", "{6E684FF3-18F1-4702-A30C-7566485A010B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst05objects", "Cst05objects\Cst05objects.csproj", "{9A3EFEED-DD92-4F57-8A36-5FE740B36CDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst05objects", "Cst05objects\Cst05objects.csproj", "{9A3EFEED-DD92-4F57-8A36-5FE740B36CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csc01arrayMethods", "Csc01arrayMethods\Csc01arrayMethods.csproj", "{2F95CED6-B655-4849-AE72-3944F397C568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csc02properties_knights", "Csc02properties_knights\Csc02properties_knights.csproj", "{EC22B898-7396-4118-8726-035E8DD379A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{9A3EFEED-DD92-4F57-8A36-5FE740B36CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3EFEED-DD92-4F57-8A36-5FE740B36CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3EFEED-DD92-4F57-8A36-5FE740B36CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F95CED6-B655-4849-AE72-3944F397C568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F95CED6-B655-4849-AE72-3944F397C568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F95CED6-B655-4849-AE72-3944F397C568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F95CED6-B655-4849-AE72-3944F397C568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC22B898-7396-4118-8726-035E8DD379A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC22B898-7396-4118-8726-035E8DD379A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC22B898-7396-4118-8726-035E8DD379A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC22B898-7396-4118-8726-035E8DD379A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

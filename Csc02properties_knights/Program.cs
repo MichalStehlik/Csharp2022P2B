@@ -1,0 +1,25 @@
+﻿using Csc02properties_knights;
+
+Knight roman = new Knight("Roman");
+//Console.WriteLine(roman.name);
+//roman.name = "Roman";
+//Console.WriteLine(roman.name);
+//roman.name = "René";
+Console.WriteLine(roman.GetName());
+roman.SetName("");
+Console.WriteLine(roman.GetName());
+Console.WriteLine(roman.Name);
+//roman.Name = "Břetislav";
+Console.WriteLine(roman.Fullname);
+Console.WriteLine(roman.HP);
+Knight marek = new Knight("Marek", 30);
+roman.ReceiveDamage(2);
+Console.WriteLine(roman.HP);
+roman.Attack(marek,10);
+Console.WriteLine(roman.HP);
+Console.WriteLine(marek.HP);
+marek.Attack(marek,1);
+marek.Attack(roman,20);
+Console.WriteLine(roman.HP);
+Console.WriteLine(marek.HP);
+Console.WriteLine(roman.IsAlive + " " + marek.IsAlive);
