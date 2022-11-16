@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc01arrayMethods", "Csc01a
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc02properties_knights", "Csc02properties_knights\Csc02properties_knights.csproj", "{EC22B898-7396-4118-8726-035E8DD379A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst06Exception", "Cst06Exception\Cst06Exception.csproj", "{43F11A70-536F-4F30-A95B-05DB42F75F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst06Exception", "Cst06Exception\Cst06Exception.csproj", "{43F11A70-536F-4F30-A95B-05DB42F75F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst07Inheritance", "Cst07Inheritance\Cst07Inheritance.csproj", "{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{43F11A70-536F-4F30-A95B-05DB42F75F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43F11A70-536F-4F30-A95B-05DB42F75F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43F11A70-536F-4F30-A95B-05DB42F75F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
