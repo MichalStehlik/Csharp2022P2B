@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc02properties_knights", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst06Exception", "Cst06Exception\Cst06Exception.csproj", "{43F11A70-536F-4F30-A95B-05DB42F75F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst07Inheritance", "Cst07Inheritance\Cst07Inheritance.csproj", "{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst07Inheritance", "Cst07Inheritance\Cst07Inheritance.csproj", "{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst08Polymorphism", "Cst08Polymorphism\Cst08Polymorphism.csproj", "{5C3A89B5-350D-484B-91E8-454D3B89A4AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
