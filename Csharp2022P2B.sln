@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst06Exception", "Cst06Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst07Inheritance", "Cst07Inheritance\Cst07Inheritance.csproj", "{3DF3382B-7EC4-4A4B-BE5E-6F93B64BBFA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst08Polymorphism", "Cst08Polymorphism\Cst08Polymorphism.csproj", "{5C3A89B5-350D-484B-91E8-454D3B89A4AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst08Polymorphism", "Cst08Polymorphism\Cst08Polymorphism.csproj", "{5C3A89B5-350D-484B-91E8-454D3B89A4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csc03Aquarium", "Csc03Aquarium\Csc03Aquarium.csproj", "{0A96144C-C116-4158-8F6C-C3FEF84D9E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsC04Battle", "CsC04Battle\CsC04Battle.csproj", "{A1C611A4-C1D0-4B69-8C4B-F9FD74823088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C3A89B5-350D-484B-91E8-454D3B89A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A96144C-C116-4158-8F6C-C3FEF84D9E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A96144C-C116-4158-8F6C-C3FEF84D9E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A96144C-C116-4158-8F6C-C3FEF84D9E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A96144C-C116-4158-8F6C-C3FEF84D9E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C611A4-C1D0-4B69-8C4B-F9FD74823088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C611A4-C1D0-4B69-8C4B-F9FD74823088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C611A4-C1D0-4B69-8C4B-F9FD74823088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C611A4-C1D0-4B69-8C4B-F9FD74823088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
