@@ -60,7 +60,7 @@ for (int i = 1; i < 10; i++)
 
 for (; ; ) // nekonečný cyklus
 {
-    a = a + 1;
+    a++; //imagine používat a = a + 1
     if (a % 2 == 0) continue; // další  iterace cyklu
     Console.WriteLine("+");
     if (a > 120) break; // cyklus ukončí
@@ -91,7 +91,7 @@ int e = 1; // inicializace
 
 // int f = null;
 int? g = null;
-string txt = String.Empty;
+string txt; //proč?
 float d = 0.1f;
 double e = 0.1;
 string f = "Ahoj";
