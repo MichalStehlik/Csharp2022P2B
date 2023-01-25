@@ -29,3 +29,79 @@ List<Student> students = new List<Student>
     new Student { FirstName = "Yvette", Classroom = "A", AverageGrade = 1.7},
     new Student { FirstName = "Zoltán", Classroom = "B", AverageGrade = 4.1},
 };
+
+/*
+foreach (Student student in students)
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+//foreach (Student student in students.OrderBy(x => x.AverageGrade))
+foreach (Student student in students.OrderBy((x) => { return x.AverageGrade; }))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (Student student in students.OrderByDescending((x) => { return x.AverageGrade; }))
+{
+    Console.WriteLine(student);
+}
+*/
+//Console.WriteLine(students.Average(x => x.AverageGrade));
+/*
+foreach (Student student in students.Take(3))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (Student student in students.OrderBy((x) => { return x.AverageGrade; }).Take(3))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (Student student in students.Where(x => x.Classroom == "B"))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (Student student in students.Where(x => x.Classroom == "B" && x.AverageGrade < 2))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (Student student in students.Where(x => x.Classroom == "B").Where(x => x.AverageGrade < 2))
+{
+    Console.WriteLine(student);
+}
+*/
+/*
+foreach (string name in students.Select(x => x.FirstName))
+{
+    Console.WriteLine(name);
+}
+*/
+/*
+foreach (var x in students.GroupBy(x => x.Classroom))
+{
+    Console.WriteLine(x.Key + ":" + x.Average(a => a.AverageGrade));
+}
+*/
+foreach (var st in students
+    .OrderBy(x => x.AverageGrade)
+    .GroupBy(x => x.Classroom)
+    .Select(x => new StudentSummary {
+        Classroom = x.Key,
+        Count = x.Count(),
+        Average = x.Average(q => q.AverageGrade) }
+    )
+    .OrderByDescending(s => s.Average)
+    )
+{
+    Console.WriteLine(st);
+}

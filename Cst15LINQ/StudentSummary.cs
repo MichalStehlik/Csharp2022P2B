@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Cst15LINQ
 {
-    internal class Student
+    internal class StudentSummary
     {
-        public string FirstName { get; set; }
         public string Classroom { get; set; }
-        public double AverageGrade { get; set; }
+        public int Count { get; set; }
+        public double Average { get; set; }
         public override string ToString()
         {
-            return FirstName + " " + Classroom + ":" + AverageGrade;
+            return Classroom + " " + Count + " " + Average;
         }
     }
 }
