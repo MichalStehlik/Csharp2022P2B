@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst13QueueStack", "Cst13Que
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst14Delegates", "Cst14Delegates\Cst14Delegates.csproj", "{EFD02350-EB5C-468A-95DC-8598988EAEE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csc07Delegates", "Csc07Delegates\Csc07Delegates.csproj", "{C1BCC812-A5B8-42CE-9A75-5AD8085A0CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc07Delegates", "Csc07Delegates\Csc07Delegates.csproj", "{C1BCC812-A5B8-42CE-9A75-5AD8085A0CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst15LINQ", "Cst15LINQ\Cst15LINQ.csproj", "{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst15LINQ", "Cst15LINQ\Cst15LINQ.csproj", "{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst16DateTime", "Cst16DateTime\Cst16DateTime.csproj", "{64BCB336-D498-4C83-AB8A-71C255364830}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BCB336-D498-4C83-AB8A-71C255364830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BCB336-D498-4C83-AB8A-71C255364830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BCB336-D498-4C83-AB8A-71C255364830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BCB336-D498-4C83-AB8A-71C255364830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
