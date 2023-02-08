@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc07Delegates", "Csc07Dele
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst15LINQ", "Cst15LINQ\Cst15LINQ.csproj", "{960CA9D2-8578-4B57-AF3B-E50C26DDFA0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst16DateTime", "Cst16DateTime\Cst16DateTime.csproj", "{64BCB336-D498-4C83-AB8A-71C255364830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst16DateTime", "Cst16DateTime\Cst16DateTime.csproj", "{64BCB336-D498-4C83-AB8A-71C255364830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst17Testing", "Cst17Testing\Cst17Testing.csproj", "{C649265C-F643-4904-BA34-33C941E4522D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst17TestingTests", "Cst17TestingTests\Cst17TestingTests.csproj", "{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{64BCB336-D498-4C83-AB8A-71C255364830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64BCB336-D498-4C83-AB8A-71C255364830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64BCB336-D498-4C83-AB8A-71C255364830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C649265C-F643-4904-BA34-33C941E4522D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C649265C-F643-4904-BA34-33C941E4522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C649265C-F643-4904-BA34-33C941E4522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C649265C-F643-4904-BA34-33C941E4522D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
