@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst17Testing", "Cst17Testin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst17TestingTests", "Cst17TestingTests\Cst17TestingTests.csproj", "{18D472DE-BDDE-4FE9-9DA6-0A73A952DA0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst15Benchmarking", "Cst15Benchmarking\Cst15Benchmarking.csproj", "{C42419C2-1FB2-4E61-A168-76BB16F62DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst15Benchmarking", "Cst15Benchmarking\Cst15Benchmarking.csproj", "{C42419C2-1FB2-4E61-A168-76BB16F62DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst19Strings", "Cst19Strings\Cst19Strings.csproj", "{7812C65C-086A-4825-9E3E-E410899F0E95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{C42419C2-1FB2-4E61-A168-76BB16F62DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42419C2-1FB2-4E61-A168-76BB16F62DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42419C2-1FB2-4E61-A168-76BB16F62DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7812C65C-086A-4825-9E3E-E410899F0E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7812C65C-086A-4825-9E3E-E410899F0E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7812C65C-086A-4825-9E3E-E410899F0E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7812C65C-086A-4825-9E3E-E410899F0E95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
