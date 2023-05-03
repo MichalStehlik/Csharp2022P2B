@@ -59,7 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst19Strings", "Cst19String
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst20RegEx", "Cst20RegEx\Cst20RegEx.csproj", "{58DBA05B-37A2-45C4-8FB7-E2D3117FC9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst21filesystem", "Cst21filesystem\Cst21filesystem.csproj", "{C28BDB18-06C8-4AAA-B495-DEB707BB54BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cst21filesystem", "Cst21filesystem\Cst21filesystem.csproj", "{C28BDB18-06C8-4AAA-B495-DEB707BB54BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst22dllClass", "Cst22dllClass\Cst22dllClass.csproj", "{2350B52D-2E73-4EA4-B74E-0D6DB9940092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cst22dllApp", "Cst22dllApp\Cst22dllApp.csproj", "{8B853F3D-D9CE-4C97-BC5B-43CD2751DE89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{C28BDB18-06C8-4AAA-B495-DEB707BB54BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28BDB18-06C8-4AAA-B495-DEB707BB54BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28BDB18-06C8-4AAA-B495-DEB707BB54BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2350B52D-2E73-4EA4-B74E-0D6DB9940092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2350B52D-2E73-4EA4-B74E-0D6DB9940092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2350B52D-2E73-4EA4-B74E-0D6DB9940092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2350B52D-2E73-4EA4-B74E-0D6DB9940092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B853F3D-D9CE-4C97-BC5B-43CD2751DE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B853F3D-D9CE-4C97-BC5B-43CD2751DE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B853F3D-D9CE-4C97-BC5B-43CD2751DE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B853F3D-D9CE-4C97-BC5B-43CD2751DE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
